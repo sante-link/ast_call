@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'ast_call'
+
+AstCall::Caller.new.originate(ARGV[0].sub(/^tel:/, ''))
