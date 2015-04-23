@@ -1,6 +1,6 @@
 # AstCall
 
-TODO: Write a gem description
+Originate calls using Asterisk Manager Interface.
 
 ## Installation
 
