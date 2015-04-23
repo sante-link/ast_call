@@ -55,6 +55,8 @@ Categories=Application;Network;
 MimeType=x-scheme-handler/tel;
 ~~~
 
+Then run `update-desktop-database`.
+
 ## Contributing
 
 1. Fork it ( https://github.com/sante-link/ast_call/fork )
