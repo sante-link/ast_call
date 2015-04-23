@@ -36,6 +36,25 @@ Originating calls is now as easy as:
 
     $ ast-call '*1'
 
+## Browser Integration
+
+Register the `tel:` protocol by creating a [Desktop Entry Specification](http://standards.freedesktop.org/desktop-entry-spec/latest/) file (e.g. `/usr/share/applications/ast-call.desktop`) containing:
+
+~~~
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/local/bin/ast-call %u
+Name=Call
+Name[fr]=Appeler
+Comment=Call people
+Comment[fr]=Passer des appels téléphoniques
+Categories=Application;Network;
+MimeType=x-scheme-handler/tel;
+~~~
+
 ## Contributing
 
 1. Fork it ( https://github.com/sante-link/ast_call/fork )
